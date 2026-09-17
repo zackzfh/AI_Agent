@@ -1,0 +1,26 @@
+# Python requirements for AI Agent
+# Run this command to install: pip install -r requirements.txt
+
+# ===== Core AI Libraries =====
+langchain                  # Main AI framework
+langchain-community        # Community integrations
+langchain-openai           # OpenAI / DeepSeek support
+
+# ===== File Readers =====
+openpyxl                   # Read Excel files (.xlsx)
+python-docx                # Read Word files (.docx)
+pandas                     # Process CSV and Excel data
+chardet                    # Detect text file encoding
+
+# ===== Database Support =====
+sqlalchemy                 # Universal database connector
+aiosqlite                  # SQLite support (no extra install needed)
+# pymysql                  # Uncomment for MySQL
+# psycopg2-binary          # Uncomment for PostgreSQL
+# pyodbc                   # Uncomment for SQL Server
+
+# ===== Web Interface =====
+streamlit                  # Beautiful web UI
+
+# ===== Utilities =====
+python-dotenv              # Load .env configuration file
